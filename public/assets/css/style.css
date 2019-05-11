@@ -1,0 +1,134 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: simp;
+    src: url(../fonts/simplifica.ttf);
+  }
+
+.header {
+    background-color: #373C3D;
+    text-align: center;
+    color: #E6FBFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: simp;
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.header h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 920px;
+}
+
+.restaurant {
+    background-color: #CFE2E6;
+    color: #373C3D;
+    width: 920px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+.restaurant img {
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.section {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    font-family: "Hackman-medium", Helvetica Neue, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.section span {
+    font-weight: 300;
+    border-bottom: 1px solid black;
+
+}
+
+.section img {
+    height: 35px;
+    width: auto;
+}
+
+.section a {
+    color: #373C3D;
+}
+
+.del {
+    margin-left: 5px;
+}
+
+text {
+    color: blue;
+}
+
+.infobox {
+    border-top: 1px solid #ccc;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-top: 20px;
+    display: inline-block;
+    width: 920px;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    text-align: center;
+}
+
+.data, .text {
+    display: inline-block;
+}
+
+.name, .info {
+    margin-bottom: 5px;
+    font-family: "Hackman-medium", Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.comments, .ezdel {
+    margin-bottom: 10px;
+    width: 920px;
+}
+
+.num {
+    border: 1px black solid;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+#loader {
+    width: 920px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
