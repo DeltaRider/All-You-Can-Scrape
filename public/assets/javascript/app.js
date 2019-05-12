@@ -134,7 +134,7 @@ $(document).on("click", ".restaurant", function(){
         $(this).attr("flag", "off");
     }
 }).on("mouseover", ".restaurant", function(){
-    $(this).attr("style", "box-shadow: 0px 0px 10px #888888;")
+    $(this).attr("style", "box-shadow: 0px 0px 10px #99EEFF;")
 }).on("mouseleave", ".restaurant", function(){
     $(this).attr("style", "")
 });
